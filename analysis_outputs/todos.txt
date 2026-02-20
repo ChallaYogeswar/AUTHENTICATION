@@ -1,0 +1,1 @@
+﻿C:\Users\chall\Downloads\PROJECTS\AUTH\analyze_project.ps1:100: Select-String -Path $_.FullName -Pattern "TODO|FIXME" -SimpleMatch -ErrorAction SilentlyContinue | ForEach-Object {

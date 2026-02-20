@@ -1,0 +1,44 @@
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.local
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+backend/dist/
+frontend/.next/
+frontend/out/
+
+# Coverage
+coverage/
+backend/coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker volumes
+postgres_data/
+redis_data/
+
+# SSL certificates (if added later)
+nginx/ssl/
+*.pem
+*.key
+*.crt
